@@ -30,7 +30,7 @@ import image from "../assets/Logo1.jpg"
 import { Link } from 'react-router-dom';  // Add this line
 import Footer from './Footer';
 import Navbar from './Navbar';
-import Contact from './Contact'
+import Contact from './Contact';
 
 
 
