@@ -102,7 +102,7 @@ const All = () => {
             We are a Pune-based transport leader offering premium vehicle rental and transport services across India.
             Renowned for safety, reliability, and comfort — our fleet and trained team ensure a top-notch experience.
           </p>
-          <a href="/about" className="btn btn-warning mt-3">Learn More</a>
+         <Link to="/about" className="btn btn-warning mt-3">Learn More</Link>
         </Container>
       </section>
 
