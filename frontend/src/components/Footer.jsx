@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import {
   faPhoneAlt,
   faEnvelope,
@@ -48,11 +49,11 @@ const Footer = () => {
           <Col md={3} className="mb-4">
             <h5 className="text-warning">Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="footer-link">Home</a></li>
-              <li><a href="/about" className="footer-link">About</a></li>
-              <li><a href="/service" className="footer-link">Services</a></li>
-              <li><a href="/safety" className="footer-link">Safety</a></li>
-              <li><a href="/contact" className="footer-link">Contact</a></li>
+              <li><Link to="/" className="footer-link">Home</Link></li>
+  <li><Link to="/about" className="footer-link">About</Link></li>
+  <li><Link to="/service" className="footer-link">Services</Link></li>
+  <li><Link to="/safety" className="footer-link">Safety</Link></li>
+  <li><Link to="/contact" className="footer-link">Contact</Link></li>
             </ul>
           </Col>
 
