@@ -30,6 +30,8 @@ import image from "../assets/Logo1.jpg"
 import { Link } from 'react-router-dom';  // Add this line
 import Footer from './Footer';
 import Navbar from './Navbar';
+import Contact from './Contact'
+
 
 
 const All = () => {
@@ -294,7 +296,9 @@ const All = () => {
         <Container>
           <h2 className="fw-bold">Looking for safe and reliable transport?</h2>
           <p className="lead mb-4">We're just a call away. 24/7 service. All over India.</p>
-          <a href="/contact" className="btn btn-dark px-4 py-2">Contact Us Now</a>
+         <Link to="/contact" className="btn btn-dark px-4 py-2">
+  Contact Us Now
+</Link>
         </Container>
       </section>
 
