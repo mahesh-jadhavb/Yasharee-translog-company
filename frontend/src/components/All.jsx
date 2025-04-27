@@ -71,7 +71,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://png.pngtree.com/png-clipart/20250208/original/pngtree-retro-vintage-taxi-cab-png-image_19853481.png"
+          src="https://www.tajwaycabs.com/delhi/images/about-taxi.png"
           alt="Third slide"
         />
         <Carousel.Caption>
