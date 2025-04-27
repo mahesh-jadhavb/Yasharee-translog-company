@@ -59,7 +59,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://t3.ftcdn.net/jpg/04/32/29/64/360_F_432296462_0rRBBm2f4u22BFa7tvls5d04AApxL8IC.jpg"
+          src="https://t4.ftcdn.net/jpg/08/34/44/07/360_F_834440759_31X5UI6DOgcpMOxB6MRZMBLS4mw4U79A.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -71,7 +71,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.taxinainital.com/wp-content/uploads/2019/03/taxi-cab-service.png"
+          src="https://png.pngtree.com/png-clipart/20250208/original/pngtree-retro-vintage-taxi-cab-png-image_19853481.png"
           alt="Third slide"
         />
         <Carousel.Caption>
