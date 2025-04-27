@@ -40,60 +40,60 @@ const All = () => {
       {/* Navbar */}
       <Navbar />
 
+     
       {/* Carousel */}
-      <section className="py-5 bg-light" style={{ marginTop: "3.6rem" }}>
-  <div className="carousel-wrapper">
-    <Carousel fade controls indicators>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://www.ashwinicab.com/images/16)%20ONLINE%20CAB%20BOOKING.webp"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3 className="hero-title">Premium Transport Solutions</h3>
-          <p className="hero-subtitle">Safe • Reliable • Pan India</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+      <section className="py-5 bg-light" style={{ marginTop: "3.6rem", backgroundSize: "cover" }}>
+        <div className="carousel-wrapper">
+          <Carousel fade controls indicators>
+            <Carousel.Item>
+              <img style={{ backgroundSize: "cover" }}
+                className="d-block w-100"
+                src="https://www.ashwinicab.com/images/16)%20ONLINE%20CAB%20BOOKING.webp"
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3 className="hero-title">Premium Transport Solutions</h3>
+                <p className="hero-subtitle">Safe • Reliable • Pan India</p>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://media.istockphoto.com/id/182859572/photo/fleet-of-yellow-new-york-city-taxi-cabs-from-above.jpg?s=612x612&w=0&k=20&c=qmN5s8m3GF1NBg1GUYRhI0qFSjHmifCVvVWLjSpR2VE="
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3 className="hero-title">Efficient Fleet Management</h3>
-          <p className="hero-subtitle">Manage your fleet with ease and efficiency.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://media.istockphoto.com/id/182859572/photo/fleet-of-yellow-new-york-city-taxi-cabs-from-above.jpg?s=612x612&w=0&k=20&c=qmN5s8m3GF1NBg1GUYRhI0qFSjHmifCVvVWLjSpR2VE="
+                alt="Second slide"
+              />
+              <Carousel.Caption>
+                <h3 className="hero-title">Efficient Fleet Management</h3>
+                <p className="hero-subtitle">Manage your fleet with ease and efficiency.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Dzire/11387/1731318279714/front-left-side-47.jpg?impolicy=resize&imwidth=360"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3 className="hero-title">Real-Time Tracking</h3>
-          <p className="hero-subtitle">Track your deliveries in real-time for full transparency.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://t3.ftcdn.net/jpg/00/23/65/62/360_F_23656257_V8Sdz7IkGOyZRfkACOvvoSSNQ3umNr1i.jpg"
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h3 className="hero-title">Real-Time Tracking</h3>
+                <p className="hero-subtitle">Track your deliveries in real-time for full transparency.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://img.freepik.com/premium-vector/car-taxi-transport-images-with-ai-generated_545052-1033.jpg?semt=ais_hybrid&w=740"
-          alt="Fourth slide"
-        />
-        <Carousel.Caption>
-          <h3 className="hero-title">On-Time Delivery</h3>
-          <p className="hero-subtitle">Your goods delivered safely and on time, every time.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  </div>
-</section>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Dzire/11387/1731318279714/front-left-side-47.jpg?impolicy=resize&imwidth=360"
+              />
+              <Carousel.Caption>
+                <h3 className="hero-title">On-Time Delivery</h3>
+                <p className="hero-subtitle">Your goods delivered safely and on time, every time.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
+      </section>
 
 
       {/* About Preview */}
