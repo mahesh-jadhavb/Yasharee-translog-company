@@ -15,22 +15,21 @@ body {
 .navbar:hover {
     background-color: rgb(41, 128, 185);
 }
-
 /* Base Carousel Style */
 .carousel-item {
     position: relative;
-    height: 80vh;
-    min-height: 300px;
+    height: 80vh; /* Fixed height for desktop */
+    min-height: 400px;
     overflow: hidden;
 }
 
 .carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the space properly */
-    object-position: center; /* Centers the important part of the image */
-    filter: brightness(0.6); /* Slightly lighter for better visibility */
-    transition: filter 0.3s ease; /* Smooth transition for effects */
+    object-fit: cover; /* Fill the container, maintain aspect ratio */
+    object-position: center; /* Focus center of image */
+    filter: brightness(0.5);
+    transition: all 0.3s ease-in-out; /* Smooth resizing */
 }
 
 /* Captions */
@@ -44,46 +43,6 @@ body {
     color: #fff;
     width: 100%;
     padding: 0 15px;
-}
-
-.carousel-caption h1,
-.carousel-caption p {
-    margin: 0;
-    padding: 0;
-    font-size: 2rem;
-}
-
-/* Responsive Tweaks */
-@media (max-width: 768px) {
-    .carousel-item {
-        height: 60vh;
-    }
-
-    .carousel-caption h1 {
-        font-size: 1.5rem;
-    }
-
-    .carousel-caption p {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .carousel-item {
-        height: 50vh;
-    }
-
-    .carousel-caption {
-        padding: 0 10px;
-    }
-
-    .carousel-caption h1 {
-        font-size: 1.2rem;
-    }
-
-    .carousel-caption p {
-        font-size: 0.9rem;
-    }
 }
 
 /* Headings */
@@ -106,8 +65,12 @@ body {
 /* ✅ Mobile Responsiveness */
 @media (max-width: 768px) {
     .carousel-item {
-        height: auto;
+        height: 60vh; /* Reduce height for tablets/mobiles */
         min-height: 300px;
+    }
+
+    .carousel-item img {
+        object-fit: cover;
     }
 
     .carousel-caption {
@@ -116,7 +79,7 @@ body {
 
     .hero-title {
         font-size: 2rem;
-        white-space: normal; /* Ensures long titles break into multiple lines */
+        white-space: normal; /* Allow multiline titles */
     }
 
     .hero-subtitle {
@@ -125,8 +88,13 @@ body {
 }
 
 @media (max-width: 480px) {
+    .carousel-item {
+        height: 50vh; /* Smaller height for small phones */
+        min-height: 250px;
+    }
+
     .carousel-item img {
-        object-fit: contain; /* Adjusts image size for very small screens */
+        object-fit: cover;
     }
 
     .hero-title {
@@ -139,8 +107,6 @@ body {
         padding: 0 10px;
     }
 }
-
-
   
 
 /* Section Title Styling */
@@ -505,97 +471,4 @@ body {
 .cta-section a.btn:hover {
   background-color: #000;
   color: #ffc107;
-}
-
-/* Base Carousel Style */
-.carousel-item {
-    position: relative;
-    height: 80vh; /* Fixed height for desktop */
-    min-height: 400px;
-    overflow: hidden;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Fill the container, maintain aspect ratio */
-    object-position: center; /* Focus center of image */
-    filter: brightness(0.5);
-    transition: all 0.3s ease-in-out; /* Smooth resizing */
-}
-
-/* Captions */
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 10;
-    color: #fff;
-    width: 100%;
-    padding: 0 15px;
-}
-
-/* Headings */
-.hero-title {
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: #fff;
-    white-space: nowrap;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-.hero-subtitle {
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-top: 0.5rem;
-    color: #f0f0f0;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-}
-
-/* ✅ Mobile Responsiveness */
-@media (max-width: 768px) {
-    .carousel-item {
-        height: 60vh; /* Reduce height for tablets/mobiles */
-        min-height: 300px;
-    }
-
-    .carousel-item img {
-        object-fit: cover;
-    }
-
-    .carousel-caption {
-        padding: 0 10px;
-    }
-
-    .hero-title {
-        font-size: 2rem;
-        white-space: normal; /* Allow multiline titles */
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .carousel-item {
-        height: 50vh; /* Smaller height for small phones */
-        min-height: 250px;
-    }
-
-    .carousel-item img {
-        object-fit: cover;
-    }
-
-    .hero-title {
-        font-size: 1.5rem;
-        padding: 0 10px;
-    }
-
-    .hero-subtitle {
-        font-size: 0.9rem;
-        padding: 0 10px;
-    }
 }
