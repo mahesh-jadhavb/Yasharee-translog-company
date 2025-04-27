@@ -47,7 +47,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.unsplash.com/photo-1562911791-c7a97b729ec5?q=80&w=2137&auto=format&fit=crop"
+          src="https://chachataxi.com/wp-content/uploads/2023/04/3644592-scaled.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -59,7 +59,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://plus.unsplash.com/premium_photo-1679830513990-82a4280f41b4?q=80&w=1932&auto=format&fit=crop"
+          src="https://t3.ftcdn.net/jpg/04/32/29/64/360_F_432296462_0rRBBm2f4u22BFa7tvls5d04AApxL8IC.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -71,7 +71,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.unsplash.com/photo-1566008885218-90abf9200ddb?q=80&w=1932&auto=format&fit=crop"
+          src="https://www.taxinainital.com/wp-content/uploads/2019/03/taxi-cab-service.png"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -83,7 +83,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.unsplash.com/flagged/photo-1555685460-1d9cf532761b?q=80&w=1973&auto=format&fit=crop"
+          src="https://img.freepik.com/premium-vector/car-taxi-transport-images-with-ai-generated_545052-1033.jpg?semt=ais_hybrid&w=740"
           alt="Fourth slide"
         />
         <Carousel.Caption>
