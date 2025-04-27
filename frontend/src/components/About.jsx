@@ -34,7 +34,7 @@ const About = () => {
             {/* Image Column */}
             <div className="col-lg-6" data-aos="fade-right">
               <img
-                src="https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                src="https://t3.ftcdn.net/jpg/04/09/34/66/360_F_409346621_8d9NAfEHWnNFIVmQxH8yzfNs0f7dHanF.jpg"
                 alt="Fleet of trucks ready for transport by Yashashree Translog"
                 className="about-img img-fluid rounded shadow"
               />
