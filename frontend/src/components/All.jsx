@@ -47,7 +47,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://chachataxi.com/wp-content/uploads/2023/04/3644592-scaled.jpg"
+          src="https://www.ashwinicab.com/images/16)%20ONLINE%20CAB%20BOOKING.webp"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -59,7 +59,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://t4.ftcdn.net/jpg/08/34/44/07/360_F_834440759_31X5UI6DOgcpMOxB6MRZMBLS4mw4U79A.jpg"
+          src="https://media.istockphoto.com/id/182859572/photo/fleet-of-yellow-new-york-city-taxi-cabs-from-above.jpg?s=612x612&w=0&k=20&c=qmN5s8m3GF1NBg1GUYRhI0qFSjHmifCVvVWLjSpR2VE="
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -71,7 +71,7 @@ const All = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.tajwaycabs.com/delhi/images/about-taxi.png"
+          src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Dzire/11387/1731318279714/front-left-side-47.jpg?impolicy=resize&imwidth=360"
           alt="Third slide"
         />
         <Carousel.Caption>
